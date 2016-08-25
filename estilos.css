@@ -1,0 +1,207 @@
+body
+{
+	margin: 0;
+	padding: 0;
+	background-color: black;
+	font:70%/160% "verdana", sans-serif;  
+}
+a{
+	color: #192666;
+
+}
+a:hover{
+	color: #4f6ad7
+}
+p {
+	margin: 1em 0;
+	padding: 0;
+}
+h1,h2,h3{
+	margin: 1em 0;
+	padding: 0
+}
+h1{
+	font-size: 260%;
+	font-family: "georgia", serif;
+	font-weight: normal;
+	color: #A04B00;
+	padding-left: 30%
+}
+h2{
+	width: 100%;
+	font-size: 180%;
+	font-family: "georgia",serif;
+	font-weight: normal;
+    padding: 0 25% ;
+}
+h3{
+	font-size: 120%;
+	font-weight: bold;
+}
+ul,ol{
+	margin:	1em 0 1em 2em;
+	padding: 0;
+}
+#contenedor	{
+	width: 880px;
+	margin: 50px auto	0 auto;
+}
+#cabecera{
+	width: 880px;
+	position: relative;
+	height: 100px;
+	margin: 0;
+	padding: 0;
+}
+#banner
+{
+	width: 880px;
+	height: 250px;
+}
+#contenido{
+	width: 870px
+	margin: 0 5px;
+	background: #fff; 
+
+}
+#contenido .condia{
+	float: left;
+	width: 200px;
+	height: auto;
+	margin-top: 15px;
+	padding: 5px 0 0 5px;
+	background: #333333;
+	color: #FCFDFE;
+}
+#contenido .promos{
+	float: left;
+	width: 400px;
+	height: 200px;
+	margin-top: 15px;
+	padding: 5px 0 0 5px;
+	background: #333333;
+	color: #FCFDFE;
+}
+#contenido .promos h2{
+	color: #FFBB00;	
+}
+#contenido .promos img{
+	width: 400px;
+	height: 200px;
+}
+#contenido .platos{
+	float: left;
+	width: 400px;
+	height: auto;
+	padding: 5px 0 0 5px;
+	background: #333333;
+	color: #FCFDFE;
+}
+#contenido .platos img{
+	float: left;
+	width: 200px;
+	height: 200px;
+	margin: 15px;
+	padding-left: 20%;	
+}
+#contenido .platos p{
+	float: left;
+	width: auto;
+	height: auto;
+	margin: 15px;	
+}
+
+#carrusel{
+	float: left;
+	width: 400px;
+	height: auto;
+    margin-top: 20px;
+    padding: 0px 25%;
+    border-top-style: solid;
+    border-color: white;
+}
+#imgcarr{
+  
+	width: 380px;
+	height: 100%;
+}
+
+#imgcarr2{
+  
+	width: 280px;
+	height: 150px
+}
+#contenido .condia p{
+
+	width: 200px;	
+	margin-top: 15px;
+	padding: 0 0 0 0px;
+	background: #333333;
+	color: #fff;
+}
+#contenido .condia img{
+	width: 200px;
+	height: 100px;
+}
+#menu{
+	background:#333333;
+	margin:  a 5px;
+	padding: 10px 0 0 0 ;
+}
+#menu ul{
+	margin: 0 10px;
+	padding: 0;
+	list-style: none;
+}
+#menu ul li{
+	margin: 0 5px 0 0;
+	padding: 0;
+	float:left;
+}
+
+#menu ul li a{
+	display: block;
+	position: relative;
+	padding:5px 15px;
+	border: 0;
+	background: #333333;
+	color: #b5c4e3;
+	font-weight: bold;
+	text-decoration: none;
+	cursor: pointer;
+}
+#menu ul li a:hover{
+	background: #31479b;
+}
+#menu ul li .seleccionado a{
+	background: black;
+	color: gray;
+}
+.clear	{
+	clear: both;
+}
+#pie{
+	width: 840px;
+	margin: 20px 0;
+	padding:0;
+	position:absolute;
+	top: 10px
+	left:40px;
+	background-color: white;
+	border-top-style: solid;
+	border-color: white;
+	background-color: #333333;
+}
+#pie div{
+	width: 40%;
+	float: left;
+padding: 2px 20px;
+}
+.titulopie{
+	color: #FFBB00;
+
+}
+#imgubicacion{
+	width: 100%;
+	height:100%;
+}
